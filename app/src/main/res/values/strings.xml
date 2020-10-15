@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Data Structure And Algorithm With Kotlin</string>
+    <string name="app_title">
+        Data Structure and
+        \nAlgorithm with
+        \nKotlin
+    </string>
 </resources>
