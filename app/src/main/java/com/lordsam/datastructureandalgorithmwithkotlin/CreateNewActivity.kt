@@ -8,14 +8,14 @@ class CreateNewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_new)
-        val username = findViewById<EditText>(R.id.ETUserNameCNA)
-        val email = findViewById<EditText>(R.id.ETEmailCNA)
-        val phone = findViewById<EditText>(R.id.ETPhoneCNA)
-        val pass = findViewById<EditText>(R.id.ETPass1CNA)
-        val repass = findViewById<EditText>(R.id.ETPass2CNA)
-        val spin = findViewById<Spinner>(R.id.SSecqurityQusCNA)
-        val answer = findViewById<EditText>(R.id.ETSecqurityAnsCNA)
-        val submit_btn = findViewById<Button>(R.id.BtnSubmitCNA)
+        val username = findViewById<EditText>(R.id.editTextUserNameCreateNewAct)
+        val email = findViewById<EditText>(R.id.editTextEmailCreateNew)
+        val phone = findViewById<EditText>(R.id.editTextPhoneCreateNew)
+        val pass = findViewById<EditText>(R.id.editTextPass1CreateNew)
+        val repass = findViewById<EditText>(R.id.editTextPass2CreateNew)
+        val spin = findViewById<Spinner>(R.id.spinnerQuestionCreateNew)
+        val answer = findViewById<EditText>(R.id.editTextAnswerCreateNew)
+        val submit_btn = findViewById<Button>(R.id.buttonSubmitCreateNew)
 
         val Questions = listOf(
             "What is your Pet Name",
