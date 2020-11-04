@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
-        android:id="@+id/progressBaeSS"
+        android:id="@+id/progressBarSS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
@@ -39,7 +39,7 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBaeSS"
+        app:layout_constraintTop_toBottomOf="@+id/progressBarSS"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="RtlHardcoded" />
 

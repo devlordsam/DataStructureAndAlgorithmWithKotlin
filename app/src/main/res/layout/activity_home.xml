@@ -20,7 +20,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/buttonHomeDataStrucutre"
+        android:id="@+id/buttonHomeDataStructure"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
@@ -43,7 +43,7 @@
         android:background="@drawable/ic_launcher_background"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonHomeDataStrucutre"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHomeDataStructure"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
