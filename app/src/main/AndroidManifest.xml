@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ProblemsActivity"></activity>
         <activity android:name=".AlgorithmActivity" />
-        <activity android:name=".DataStrucutreActivity" />
+        <activity android:name=".DataStructureActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".SplashScreenActivity" />
         <activity android:name=".LoginActivity" />
