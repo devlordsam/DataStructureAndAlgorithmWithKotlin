@@ -15,7 +15,7 @@
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="Login"
-        android:textSize="28sp"
+        android:textSize="36sp"
         android:textStyle="bold"
         android:textColor="@android:color/black"
         app:layout_constraintLeft_toLeftOf="parent"
