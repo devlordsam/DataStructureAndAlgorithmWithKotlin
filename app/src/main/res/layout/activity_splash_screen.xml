@@ -7,6 +7,10 @@
     tools:context=".SplashScreenActivity">
 
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_splash_screen"/>
     
     
     <TextView
@@ -15,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="80dp"
-        android:text="@string/data_structure_and_algorithms_with_kotlin"
+        android:text="@string/app_title"
         android:textSize="40sp"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintLeft_toLeftOf="parent"
