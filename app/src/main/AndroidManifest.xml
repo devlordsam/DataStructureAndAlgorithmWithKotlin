@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProblemsActivity"></activity>
+        <activity android:name=".ProblemsActivity"/>
         <activity android:name=".AlgorithmActivity" />
         <activity android:name=".DataStructureActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".SplashScreenActivity"
+        <activity
+            android:name=".SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,14 +24,7 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".CreateAccountActivity" />
-        <activity android:name=".ProblemActivity" />
-        <activity android:name=".AlgoActivity" />
-        <activity android:name=".DataStructureActivity" />
-        <activity android:name=".CreateNewActivity" />
-        <activity android:name=".SplashScreen" />
-        <activity android:name=".MainActivity"/>
-
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
