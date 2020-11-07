@@ -31,9 +31,9 @@ class SplashScreenActivity : AppCompatActivity() {
         txtAppName = findViewById(R.id.textViewSSTitle)
         lottieAnimationView = findViewById(R.id.lottie)
 
-        bg.animate().translationY(-1600F).setDuration(1000).startDelay = 4000
-        txtAppName.animate().translationY(1600F).setDuration(1000).startDelay = 4000
-        lottieAnimationView.animate().translationY(1600F).setDuration(1000).startDelay = 4000
+        bg.animate().translationY(-1600F).setDuration(1000).startDelay = 2000
+        txtAppName.animate().translationY(1600F).setDuration(1000).startDelay = 2000
+        lottieAnimationView.animate().translationY(1600F).setDuration(1000).startDelay = 2000
     }
 
     private fun isFirstRun() {
@@ -47,7 +47,7 @@ class SplashScreenActivity : AppCompatActivity() {
             animate()
             Handler().postDelayed({
                 startActivity(Intent(this, LoginActivity::class.java))
-            }, 3000)
+            }, 3200)
         }
 
     }
