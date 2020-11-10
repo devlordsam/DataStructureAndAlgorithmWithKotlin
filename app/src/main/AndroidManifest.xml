@@ -9,14 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProblemsActivity"
-            android:label="Problems"/>
-        <activity android:name=".AlgorithmActivity"
-            android:label="Algorithms"/>
-        <activity android:name=".DataStructureActivity"
-            android:label="Data Structure"/>
-        <activity android:name=".HomeActivity"
-            android:label="Home"/>
+        <activity android:name=".BinarySearchTreeActivity"></activity>
+        <activity android:name=".BinaryTreeActivity" />
+        <activity android:name=".QueueActivity" />
+        <activity android:name=".StackActivity" />
+        <activity android:name=".CircularSinglyLinkedActivity" />
+        <activity android:name=".CircularDoublyLinkedActivity" />
+        <activity android:name=".DoublyLinkedActivity" />
+        <activity android:name=".SinglyLinkedActivity" />
+        <activity
+            android:name=".ProblemsActivity"
+            android:label="Problems" />
+        <activity
+            android:name=".AlgorithmActivity"
+            android:label="Algorithms" />
+        <activity
+            android:name=".DataStructureActivity"
+            android:label="Data Structure" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home" />
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -28,8 +40,9 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".CreateAccountActivity" />
-        <activity android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>

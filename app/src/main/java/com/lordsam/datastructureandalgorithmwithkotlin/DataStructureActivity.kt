@@ -39,7 +39,7 @@ class DataStructureActivity : AppCompatActivity() {
     }
 
 
-    class ListAdapterDS(val ctx: Context, private val arrOfDS: ArrayList<String>): BaseAdapter(){
+    class ListAdapterDS(val ctx: Context, private val arrOfDS: ArrayList<String>) : BaseAdapter() {
         override fun getCount(): Int {
             return arrOfDS.size
         }
@@ -54,7 +54,7 @@ class DataStructureActivity : AppCompatActivity() {
 
         override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
             val ds = arrOfDS[position]
-            val inflater = ctx.getSystemService( Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            val inflater = ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             val view = inflater.inflate(R.layout.card_data_structure, null)
             view.textViewCDataStructure.text = ds
             return view
