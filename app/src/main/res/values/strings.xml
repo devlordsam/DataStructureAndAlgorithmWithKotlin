@@ -14,4 +14,15 @@
     <string name="login">Login</string>
     <string name="data_structure_and_algorithms_with_kotlin">Data Structure And Algorithms with Kotlin</string>
     <string name="algorithms">Algorithms</string>
+    <string name="sample">
+        private val lastNode: Node?
+            get() {
+                var currentNode = head
+
+                while (currentNode?.next != null)
+                    currentNode = currentNode.next
+
+                return currentNode
+            }
+    </string>
 </resources>

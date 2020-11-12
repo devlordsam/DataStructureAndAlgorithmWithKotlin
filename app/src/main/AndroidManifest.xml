@@ -9,14 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BinarySearchTreeActivity"></activity>
+        <activity android:name=".BinarySearchTreeActivity"/>
         <activity android:name=".BinaryTreeActivity" />
         <activity android:name=".QueueActivity" />
         <activity android:name=".StackActivity" />
         <activity android:name=".CircularSinglyLinkedActivity" />
         <activity android:name=".CircularDoublyLinkedActivity" />
         <activity android:name=".DoublyLinkedActivity" />
-        <activity android:name=".SinglyLinkedActivity" />
+        <activity android:name=".SinglyLinkedActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".ProblemsActivity"
             android:label="Problems" />
@@ -32,11 +38,7 @@
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".CreateAccountActivity" />
