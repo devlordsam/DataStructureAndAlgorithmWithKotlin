@@ -102,7 +102,10 @@ class CircularLinkedList {
     }
 }
 
-class CNode(val data: String, var next: CNode?)
+class CNode(
+    val data: String,
+    var next: CNode?
+    )
 
 fun main(){
 
@@ -114,7 +117,7 @@ fun main(){
     list.addLast("cool")
     list.addFirst("The")
     list.addBefore(0, "man")
-    //list.removeAt(3)
+    list.removeAt(3)
     list.getAll()
     println(list.getAt(1))
 }

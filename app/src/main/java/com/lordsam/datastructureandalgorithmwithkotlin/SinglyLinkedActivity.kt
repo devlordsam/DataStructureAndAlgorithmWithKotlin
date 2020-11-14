@@ -4,7 +4,6 @@ package com.lordsam.datastructureandalgorithmwithkotlin
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_singly_linked.*
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStream
@@ -91,6 +90,7 @@ class SinglyLinkedActivity : AppCompatActivity() {
     }
 
 
+
     private fun writer(fileID: Int, textView: TextView?, from: Int, to: Int) {
 
         val `is`: InputStream = resources.openRawResource(fileID)
@@ -140,5 +140,4 @@ class SinglyLinkedActivity : AppCompatActivity() {
         textView!!.text = entireFile
 
     }
-
 }

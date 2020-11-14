@@ -1,6 +1,7 @@
 package com.lordsam.datastructureandalgorithmwithkotlin
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -57,6 +58,13 @@ class DataStructureActivity : AppCompatActivity() {
             val inflater = ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             val view = inflater.inflate(R.layout.card_data_structure, null)
             view.textViewCDataStructure.text = ds
+            view.setOnClickListener {
+
+                when(position){
+                    0 -> ctx.startActivity(Intent(ctx, SinglyLinkedActivity::class.java))
+                    1 -> ctx.startActivity(Intent(ctx, CircularSinglyLinkedActivity::class.java))
+                }
+            }
             return view
         }
 
