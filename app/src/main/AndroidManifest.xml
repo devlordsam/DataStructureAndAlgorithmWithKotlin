@@ -9,8 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BinarySearchTreeActivity"/>
-        <activity android:name=".BinaryTreeActivity" />
         <activity android:name=".QueueActivity" />
         <activity android:name=".StackActivity" />
         <activity android:name=".CircularSinglyLinkedActivity" />
