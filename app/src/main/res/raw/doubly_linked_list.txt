@@ -112,7 +112,11 @@ class DoublyLinkedList {
 
 }
 
-class DNode(var prev: DNode?, val data: String, var next: DNode?)
+class DNode(
+    var prev: DNode?,
+    val data: String,
+    var next: DNode?
+    )
 
 fun main(){
 

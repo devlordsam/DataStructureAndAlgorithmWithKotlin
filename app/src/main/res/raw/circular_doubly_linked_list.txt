@@ -126,7 +126,11 @@ class CircularDoublyLinkedList {
     }
 }
 
-class CDNode(var prev: CDNode?, val data: String, var next: CDNode?)
+class CDNode(
+    var prev: CDNode?,
+    val data: String,
+    var next: CDNode?
+    )
 
 fun main() {
 
@@ -145,5 +149,4 @@ fun main() {
     println()
     println(list.size)
     list.getAllFromRight()
-
 }
