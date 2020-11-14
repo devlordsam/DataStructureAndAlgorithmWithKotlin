@@ -39,9 +39,13 @@ class Stack {
     fun top(){
         println("Top : ${top!!.data}")
     }
+
 }
 
-class SNode(val data: String, var down: SNode?)
+class SNode(
+    val data: String,
+    var down: SNode?
+    )
 
 fun main(){
 
