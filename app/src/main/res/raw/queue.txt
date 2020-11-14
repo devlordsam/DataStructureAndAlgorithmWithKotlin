@@ -42,9 +42,13 @@ class Queue {
     fun getRear(){
         println("Rear : [${rear!!.data}] ")
     }
+
 }
 
-class QNode(val data: String, var next: QNode?)
+class QNode(
+    val data: String,
+    var next: QNode?
+    )
 
 fun main(){
 
