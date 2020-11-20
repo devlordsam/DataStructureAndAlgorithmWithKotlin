@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray"
     android:padding="8dp"
     tools:context=".SinglyLinkedActivity">
 
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="5dp"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,7 +28,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:gravity="center"
-                android:text="Singly Linked List"
+                android:text="@string/singly_linked_list"
+                android:textColor="@color/black"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -35,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="1) Create node"
+                android:textColor="@color/red"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -42,6 +48,7 @@
                 android:id="@+id/textViewSLCreateNodeCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--initialize head-->
@@ -51,6 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="2) Initialize head reference"
+                android:textColor="@color/red"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -58,6 +66,7 @@
                 android:id="@+id/textViewSLInitializeHeadCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--remove a node at -->
@@ -66,6 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="3) Get the last node"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -74,6 +84,7 @@
                 android:id="@+id/textViewSLLastNodeCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--remove a node at -->
@@ -83,12 +94,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="4) Get the size of the list"
+                android:textColor="@color/red"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewSLGetSizeCode"
                 android:layout_width="match_parent"
+                android:textColor="@color/darkGray"
                 android:layout_height="wrap_content"
                 android:textSize="16sp" />
 
@@ -98,6 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="5) Add a node after another node"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -106,6 +120,7 @@
                 android:id="@+id/textViewSLAddLastCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--add first-->
@@ -115,12 +130,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="6) Add a node before head"
+                android:textColor="@color/red"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewSLAddFirstCode"
                 android:layout_width="match_parent"
+                android:textColor="@color/darkGray"
                 android:layout_height="wrap_content"
                 android:textSize="16sp" />
 
@@ -130,6 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="7) Add a node before any node"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -138,6 +156,7 @@
                 android:id="@+id/textViewSLAddBeforeCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--get a node at -->
@@ -147,12 +166,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="8) Get a node at an index"
+                android:textColor="@color/red"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewSLGetAtCode"
                 android:layout_width="match_parent"
+                android:textColor="@color/darkGray"
                 android:layout_height="wrap_content"
                 android:textSize="16sp" />
 
@@ -162,6 +183,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="9) Get the linked list"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -170,6 +192,7 @@
                 android:id="@+id/textViewSLGetListCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--remove a node at -->
@@ -179,6 +202,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="10) Remove a node at"
+                android:textColor="@color/red"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -186,6 +210,7 @@
                 android:id="@+id/textViewSLRemoveAtCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--encapsulate -->
@@ -196,12 +221,14 @@
                 android:layout_marginTop="8dp"
                 android:text="11) Encapsulate everything in a class"
                 android:textSize="20sp"
+                android:textColor="@color/red"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewSLEncapsulateCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--trigger -->
@@ -210,6 +237,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="12) Trigger function"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -217,6 +245,7 @@
             <TextView
                 android:id="@+id/textViewSLTriggerCode"
                 android:layout_width="match_parent"
+                android:textColor="@color/darkGray"
                 android:layout_height="wrap_content"
                 android:textSize="16sp" />
 
@@ -227,6 +256,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="13) Full Code"
+                android:textColor="@color/red"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -234,6 +264,7 @@
                 android:id="@+id/textViewSLFullCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
         </LinearLayout>

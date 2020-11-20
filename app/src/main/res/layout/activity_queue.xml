@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:padding="8dp"
+    android:background="@color/gray"
     android:layout_height="match_parent"
     tools:context=".QueueActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/white">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textViewQueueTitle"
                 android:text="Queue"
+                android:textColor="@color/black"
                 android:gravity="center"
                 android:textSize="28sp"
                 android:textStyle="bold"
@@ -35,6 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="1) Create node"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -43,6 +47,7 @@
                 android:id="@+id/textViewQueueCreateNodeCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--initialize top-->
@@ -51,6 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="2) Initialize references"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -59,6 +65,7 @@
                 android:id="@+id/textViewQueueRefCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--Enqueue-->
@@ -67,6 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="3) Enqueue a Node"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -75,6 +83,7 @@
                 android:id="@+id/textViewQueueEnqueueCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--Dequeue-->
@@ -83,6 +92,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="4) Dequeue a Node"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -91,6 +101,7 @@
                 android:id="@+id/textViewQueueDequeueCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--get stack-->
@@ -99,6 +110,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="5) Get the queue"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -107,6 +119,7 @@
                 android:id="@+id/textViewQueueGetAllCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--get front-->
@@ -115,6 +128,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="6) Get front"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -123,6 +137,7 @@
                 android:id="@+id/textViewQueueGetFrontCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--get rear-->
@@ -131,6 +146,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="7) Get rear"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -139,6 +155,7 @@
                 android:id="@+id/textViewQueueGetRearCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--Encapsulate-->
@@ -147,6 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="8) Encapsulate in a class"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -155,6 +173,7 @@
                 android:id="@+id/textViewQueueEncapsulateCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--trigger-->
@@ -163,6 +182,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="9) Trigger function"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -171,6 +191,7 @@
                 android:id="@+id/textViewQueueTriggerCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--Full code-->
@@ -179,6 +200,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="10) Full code"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -187,6 +209,7 @@
                 android:id="@+id/textViewQueueFullCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
 

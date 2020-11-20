@@ -6,12 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="8dp"
+    android:background="@color/gray"
     tools:context=".CircularDoublyLinkedActivity">
 
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,6 +28,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:gravity="center"
+                android:textColor="@color/black"
                 android:text="Circular Doubly Linked List"
                 android:textSize="28sp"
                 android:textStyle="bold" />
@@ -34,6 +38,7 @@
                 android:id="@+id/textViewCDLCreateNode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/red"
                 android:layout_marginTop="8dp"
                 android:text="1) Create node"
                 android:textSize="20sp"
@@ -43,6 +48,7 @@
                 android:id="@+id/textViewCDLCreateNodeCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--initialize head-->
@@ -51,6 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="2) Initialize references"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -59,6 +66,7 @@
                 android:id="@+id/textViewCDLInitializeHeadCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--get size -->
@@ -67,6 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="3) Get the size of the list"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -75,6 +84,7 @@
                 android:id="@+id/textViewCDLGetSizeCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--add last-->
@@ -83,6 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="4) Add a node after another node"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -91,6 +102,7 @@
                 android:id="@+id/textViewCDLAddLastCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--add first-->
@@ -99,6 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="5) Add a node before head"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -107,6 +120,7 @@
                 android:id="@+id/textViewCDLAddFirstCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--add before-->
@@ -115,6 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="6) Add a node before any node"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -123,6 +138,7 @@
                 android:id="@+id/textViewCDLAddBeforeCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--get all from left -->
@@ -131,6 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="7) Get the list from left"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -139,6 +156,7 @@
                 android:id="@+id/textViewCDLGetAllFromLeftCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--get all from right -->
@@ -147,6 +165,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="8) Get the list from right"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -155,6 +174,7 @@
                 android:id="@+id/textViewCDLGetAllFromRightCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--remove a node at -->
@@ -163,6 +183,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="9) Remove a node at"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -171,6 +192,7 @@
                 android:id="@+id/textViewCDLRemoveAtCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--encapsulate -->
@@ -179,6 +201,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="10) Encapsulate everything in a class"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -187,6 +210,7 @@
                 android:id="@+id/textViewCDLEncapsulateCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--trigger -->
@@ -195,6 +219,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="11) Trigger function"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -203,6 +228,7 @@
                 android:id="@+id/textViewCDLTriggerCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <!--full code -->
@@ -211,6 +237,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/red"
                 android:text="12) Full Code"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -219,6 +246,7 @@
                 android:id="@+id/textViewCDLFullCode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
         </LinearLayout>

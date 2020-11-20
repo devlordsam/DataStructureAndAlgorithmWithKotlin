@@ -67,8 +67,8 @@ class DataStructureActivity : AppCompatActivity() {
                     3 -> ctx.startActivity(Intent(ctx, CircularDoublyLinkedActivity::class.java))
                     4 -> ctx.startActivity(Intent(ctx, StackActivity::class.java))
                     5 -> ctx.startActivity(Intent(ctx, QueueActivity::class.java))
-                    6 -> ctx.startActivity(Intent(ctx, BinaryTreeActivity::class.java))
-                    7 -> ctx.startActivity(Intent(ctx, BinarySearchTreeActivity::class.java))
+                    //6 -> ctx.startActivity(Intent(ctx, BinaryTreeActivity::class.java))
+                   // 7 -> ctx.startActivity(Intent(ctx, BinarySearchTreeActivity::class.java))
 
                 }
             }

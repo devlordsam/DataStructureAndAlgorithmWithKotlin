@@ -9,4 +9,6 @@
     <color name="black">#000000</color>
     <color name="green">#00FF00</color>
     <color name="gray">#D4D3D2</color>
+    <color name="darkGray">#403E3E</color>
+    <color name="mashBlue">#A96CAAED</color>
 </resources>

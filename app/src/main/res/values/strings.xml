@@ -25,4 +25,5 @@
                 return currentNode
             }
     </string>
+    <string name="singly_linked_list">Singly Linked List</string>
 </resources>
