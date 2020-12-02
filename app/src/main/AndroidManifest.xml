@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SortingAlgorithmsActivity"></activity>
+        <activity android:name=".SearchingAlgorithmsActivity" />
         <activity android:name=".QueueActivity" />
         <activity android:name=".StackActivity" />
         <activity android:name=".CircularSinglyLinkedActivity" />
         <activity android:name=".CircularDoublyLinkedActivity" />
         <activity android:name=".DoublyLinkedActivity" />
-        <activity android:name=".SinglyLinkedActivity" >
-
-        </activity>
+        <activity android:name=".SinglyLinkedActivity" />
         <activity
             android:name=".ProblemsActivity"
             android:label="Problems" />
