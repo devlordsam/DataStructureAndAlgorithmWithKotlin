@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,13 +7,173 @@
     tools:context=".SortingAlgorithmsActivity">
 
 
-    <ListView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/listViewSort"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        android:scrollbars="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewSoATitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Sorting Algorithms"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <!--selection sort-->
+            <TextView
+                android:id="@+id/textViewSoASelectionSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:text="1) Selection Sort"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSoASelectionSortCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp" />
+
+            <!--bubble sort-->
+            <TextView
+                android:id="@+id/textViewSoABubbleSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:text="2) Bubble Sort"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSoABubbleSortCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp" />
+
+            <!--insertion sort-->
+            <TextView
+                android:id="@+id/textViewSoAInsertionSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:text="3) Insertion Sort"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSoAInsertionSortCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp" />
+
+            <!--recursive bubble sort-->
+            <TextView
+                android:id="@+id/textViewSoARBubbleSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:text="4) Recursive Bubble Sort"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSoARBubbleSortCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp" />
+
+            <!--merge sort-->
+            <TextView
+                android:id="@+id/textViewSoAMergeSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:text="5) Merge Sort"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSoAMergeSortCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp" />
+
+            <!--quick sort-->
+            <TextView
+                android:id="@+id/textViewSoAQuickSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:text="6) Quick Sort"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSoAQuickSortCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp" />
+
+            <!--heap sort-->
+            <TextView
+                android:id="@+id/textViewSoAHeapSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:text="7) Heap Sort"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSoAHeapSortCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp" />
+
+            <!--radix sort-->
+            <TextView
+                android:id="@+id/textViewSoARadixSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:text="8) Radix Sort"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSoARadixSortCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

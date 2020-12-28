@@ -1,0 +1,62 @@
+class SearchingAlgorithm {
+
+    fun linearSearch(arr: Array<Int>, n: Int): Int{
+
+        for (i in arr)
+            if (i == n)
+                return arr.indexOf(i)
+        return -1
+    }
+
+    fun binarySearch(
+        arr: Array<Int>,
+        low: Int, high:
+        Int, n: Int
+        ): Int{
+
+        //arr should be a sorted array
+
+        val mid = (low + high) / 2
+
+        return when {
+            arr[mid] == n -> {
+                1
+            }
+            arr[mid] > n -> {
+                binarySearch(arr, low, mid - 1, n)
+            }
+            else -> {
+                binarySearch(arr, mid + 1, high, n)
+            }
+        }
+    }
+
+    fun jumpSearch(
+        arr: Array<Int>,
+        x: Int
+        ): Int {
+
+        val n = arr.size
+
+        var step = Math.floor(
+            Math.sqrt(n.toDouble())
+            ).toInt()
+
+        var prev = 0
+        while (arr[step.coerceAtMost(n) - 1] < x) {
+            prev = step
+            step += Math.floor(
+                Math.sqrt(n.toDouble())
+                ).toInt()
+            if (prev >= n) return -1
+        }
+
+        while (arr[prev] < x) {
+            prev++
+
+            if (prev == Math.min(step, n)) return -1
+        }
+
+        return if (arr[prev] == x) prev else -1
+    }
+}

@@ -1,19 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="8dp"
     tools:context=".SearchingAlgorithmsActivity">
 
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/listViewSearch"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scrollbars="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+           <TextView
+               android:id="@+id/textViewSATitle"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:layout_marginBottom="8dp"
+               android:gravity="center"
+               android:textColor="@color/black"
+               android:text="Searching Algorithms"
+               android:textSize="28sp"
+               android:textStyle="bold" />
+
+           <!--linear search-->
+           <TextView
+               android:id="@+id/textViewSALinearSearch"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/red"
+               android:layout_marginTop="8dp"
+               android:text="1) Linear Search"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textViewSALinearSearchCode"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/darkGray"
+               android:textSize="16sp" />
+
+           <!--binary search-->
+           <TextView
+               android:id="@+id/textViewSABinarySearch"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/red"
+               android:layout_marginTop="8dp"
+               android:text="2) Binary Search"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textViewSABinarySearchCode"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/darkGray"
+               android:textSize="16sp" />
+
+           <!--Jump search-->
+           <TextView
+               android:id="@+id/textViewSAJumpSearch"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/red"
+               android:layout_marginTop="8dp"
+               android:text="3) Jump Search"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textViewSAJumpSearchCode"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/darkGray"
+               android:textSize="16sp" />
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
