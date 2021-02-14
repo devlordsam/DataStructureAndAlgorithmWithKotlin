@@ -5,8 +5,22 @@
     android:layout_width="match_parent"
     android:padding="8dp"
     android:orientation="vertical"
+    android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".AlgorithmActivity">
+
+
+    <TextView
+        android:id="@+id/textViewPSTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Algorithms"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
 
     <Button
@@ -15,6 +29,7 @@
         android:id="@+id/buttonAlgo1"
         android:text="Searching Algorithms"
         android:padding="16dp"
+        android:background="@drawable/background_card"
         android:textSize="28sp"
         android:textAllCaps="false"/>
 
@@ -24,6 +39,7 @@
         android:id="@+id/buttonAlgo2"
         android:layout_marginTop="8dp"
         android:text="Sorting Algorithms"
+        android:background="@drawable/background_card"
         android:padding="16dp"
         android:textSize="28sp"
         android:textAllCaps="false"/>

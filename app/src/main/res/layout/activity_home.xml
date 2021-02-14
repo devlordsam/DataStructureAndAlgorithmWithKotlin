@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="8dp"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
@@ -25,36 +26,38 @@
             <ImageView
                 android:id="@+id/imageViewHomeAppLogo"
                 android:layout_width="match_parent"
+                android:elevation="4dp"
                 android:layout_height="200dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="12dp"
                 android:background="@drawable/banner_for_app" />
 
             <ImageView
                 android:id="@+id/buttonHomeDataStructure"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:background="@drawable/data_structure" />
 
             <ImageView
                 android:id="@+id/buttonHomeAlgorithms"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:background="@drawable/algorithms" />
 
             <ImageView
                 android:id="@+id/buttonHomeProblems"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
                 android:background="@drawable/problem_solving" />
         </LinearLayout>
     </ScrollView>
